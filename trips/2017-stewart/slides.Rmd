@@ -23,9 +23,9 @@ By New Zealand standards, it's pretty light on for hills; but it turns out the q
 
 ## Interactive map
 
-<iframe width="800" height="450" src="leaflet.html" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://kayfisher.github.io/trips/2017-stewart/leaflet.html" frameborder="0" allowfullscreen></iframe>
 
-Click on the markers for pictures and movies; or try the [full screen version](leaflet.html)/
+Click on the markers for pictures and movies; or try the [full screen version](https://kayfisher.github.io/trips/2017-stewart/leaflet.html)/
 
 # Day 1
 
@@ -55,6 +55,10 @@ Click on the markers for pictures and movies; or try the [full screen version](l
 
 ##
 
+<img src = 'P1300021.JPG' width = '100%'  class = "rotate270">
+
+##
+
 <img src = 'P1300022.JPG' width = '100%'>
 
 ##
@@ -65,11 +69,15 @@ Click on the markers for pictures and movies; or try the [full screen version](l
 
 <img src = 'P1300025.JPG' width = '100%'>
 
-# Day 2 
+##
+
+<img src = 'P1300027.JPG' width = '100%' class = "rotate270">
 
 ##
 
 <img src = 'P1300033.JPG' width = '100%'>
+
+# Day 2 
 
 ##
 
@@ -93,6 +101,10 @@ Click on the markers for pictures and movies; or try the [full screen version](l
 
 ##
 
+<img src = 'P1310048.JPG' width = '100%' class = "rotate90">
+
+##
+
 <img src = 'P1310050.JPG' width = '100%'>
 
 ##
@@ -106,6 +118,14 @@ Click on the markers for pictures and movies; or try the [full screen version](l
 ##
 
 <img src = 'P1310062.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310063.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310065.JPG' width = '100%'>
 
 # Day 3
 
@@ -131,6 +151,22 @@ Click on the markers for pictures and movies; or try the [full screen version](l
 
 ##
 
+<img src = 'P2010077.JPG' width = '100%' class = "rotate270">
+
+##
+
+<img src = 'P2010079.JPG' width = '100%' class = "rotate270">
+
+##
+
+<img src = 'P2010080.JPG' width = '100%' class = "rotate270">
+
+##
+
+<img src = 'P2010081.JPG' width = '100%' class = "rotate270">
+
+##
+
 <img src = 'P2010083.JPG' width = '100%'>
 
 ##
@@ -141,6 +177,14 @@ Click on the markers for pictures and movies; or try the [full screen version](l
 ##
 
 <img src = 'P2010085.JPG' width = '100%' class = "rotate270">
+
+##
+
+<img src = 'P2010086.JPG' width = '100%' class = "rotate270">
+
+##
+
+<img src = 'P2010087.JPG' width = '100%' class = "rotate270">
 
 ##
 

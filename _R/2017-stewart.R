@@ -184,6 +184,16 @@ inc <- rbind(
   ),
   data_frame(
     id = 21,
+    event = "Doughboy Bay beach",
+    lat = -47.0322,
+    lng = 167.7041,
+    icon = "camera",
+    image = "<img src = 'P1310063.JPG'><img src = 'P1310065.JPG'>",
+    description = "Pleasant saunder along the beach to the hut."
+  ),
+  
+  data_frame(
+    id = 22,
     event = "Doughboy Bay Hut",
     lat = -47.0322,
     lng = 167.705,
@@ -192,7 +202,7 @@ inc <- rbind(
     description = "Our second night was in Doughboy Bay Hut overlooking a beautiful bay. We were hoping to have the 8 person hut to ourselves and possibly have a rest day and extra night there. But we dismissed that option when we found we were sharing the hut with 5 hunters who had just settled in for a 10 day stint. </p><p>They had flown in directly onto Doughboy Bay beach and, as hunters do, had spared nothing of their home comforts (mountains of food, whiskey, cake, board games, male messiness etc). We were surprised and pleased to find them rather considerate. Nevertheless, the hut was most definitely their space. </p><p>We watched them play hours of cribbage, drink lots of whisky, and talk about not having killed anything. One of them told us how he had seen three kiwis on a hill nearby and one of them had pecked his boot. Our kiwi experience no longer seemed so special.They also gave us helpful advice about how to avoid the unmarked beach quicksand on the track the next day. Again, we forgot to take a photo, so this is someone else's."
   ),
   data_frame(
-    id = 22,
+    id = 23,
     event = "Doughboy Hill",
     lat = -47.021,
     lng = 167.733067,
@@ -202,7 +212,7 @@ inc <- rbind(
   ),
   
   data_frame(
-    id = 23,
+    id = 24,
     event = "Outward bound",
     lat = -46.991,
     lng = 167.833,
@@ -212,7 +222,7 @@ inc <- rbind(
   ),
   
   data_frame(
-    id = 24,
+    id = 25,
     event = "Bogs nearer Rakeahua Hut",
     lat = -46.982330,
     lng = 167.854731,
@@ -222,7 +232,7 @@ inc <- rbind(
   ),
   
   data_frame(
-    id = 25,
+    id = 26,
     event = "Rakeahua Hut - what a relief",
     lat = -46.982096,
     lng = 167.880872,
@@ -231,7 +241,7 @@ inc <- rbind(
     description = "We spent an evening and a whole leisurely sunny day in the lovely Rakeahua Hut with the place all to ourselves. Plenty of time to read, eat all our spare food and walk stiffly around. Kay picked up a great novel from the hut (it is rare to find anything worth reading in huts) which she was enjoying so much she took it back to Oban to finish. </p><p>By late afternoon we were joined by 4 seasoned trampers who had just done the whole 10 day Northern Circuit tramp - joining up with our Southern Circuit. They told us the route we had just done was harder than most of the NC. They sold us on doing the NC so, despite the mud, we plan to come back."
   ),
   data_frame(
-    id = 26,
+    id = 27,
     event = "Pick-up",
     lat = -46.98351,
     lng = 167.885,
@@ -240,7 +250,7 @@ inc <- rbind(
     description = "Lovely spot for a pickup."
   ),
   data_frame(
-    id = 27,
+    id = 28,
     event = "Jumping fish",
     lat = -46.932740,
     lng = 168.036168,
