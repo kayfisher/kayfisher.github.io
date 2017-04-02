@@ -7,7 +7,7 @@ phdir <- "D:/Peter/Pictures/2017-02-12/"
 # different colours
 
 
-#================data
+#================data==================
 inc <- rbind(
   data_frame(
     id = 1,
@@ -152,7 +152,7 @@ inc <- rbind(
   ),
   data_frame(
     id = 17,
-    event = "Emerging from the bog",
+    event = "Bogged!",
     lat = -46.988607,
     lng = 167.733067,
     icon = "warning",
@@ -160,22 +160,51 @@ inc <- rbind(
     description = "We underestimated the bog and tried going straight through.  Both ended up in it up to our chests; had to work hard for Peter to get out then find a way to the other side and help pull Kay out, using his trekking pole to reach her.  It was much worse than it looks."
   ),
   data_frame(
-    id = 100,
+    id = 18,
+    event = "Lost! (nearly)",
+    lat = -47.013,
+    lng = 167.717,
+    icon = "warning",
+    image = "<img src = 'P1310057.JPG'>",
+    description = "Somewhere near the top soon after this photo the visibility went to very little, just as we got near the top of Adam's Hill and the path vanished into a general maze of bogs and undergrowth.  Suddenly it was cold and wet, we were definitely off track; needed all of map, compass, GPS, and a fair bit of back tracking to find our way out.  After that, there was a big downhill slog in exceptionally muddy tracks, with no photos due to grumpiness and general sense of 'hope this is over soon'"
+  ),
+  data_frame(
+    id = 19,
     event = "We meet a kiwi",
     lat = -47.021,
-    lng = 167.718,
+    lng = 167.715,
     icon = "video-camera",
     image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/iOxU1d3IbII?autoplay=1" frameborder="0" allowfullscreen></iframe>',
-    description = "We met a very unafraid kiwi."
+    description = "As we got down to about 150m above the beach and out of the worst of the mud down, we suddenly met a very unafraid kiwi.  It was about 5pm and still very light, but the Stewart Island kiwis are less nocturnal than others."
     ),
   data_frame(
-    id = 100,
+    id = 20,
+    event = "Stream",
+    lat = -47.030474,
+    lng = 167.703588,
+    icon = "warning",
+    image = "<img src = 'P1310062.JPG'>",
+    description = "Final obstacle of day 2 was a stream between us and the beach.  We used it to clean ourselves off."
+  ),
+  data_frame(
+    id = 21,
     event = "Doughboy Bay Hut",
     lat = -47.0322,
     lng = 167.705,
     icon = "home",
-    image = "",
-    description = "For the second night we were in Doughboy Bay Hut, sharing the 8 person hut with eight hunters who had settled in for the duration."),
+    image = "<img src = 'doughboy-hut.JPG'>",
+    description = "For the second night we were in Doughboy Bay Hut, sharing the 8 person hut with eight hunters who had settled in for the duration.  They played lots of cribbage, drank lots of whisky, hadn't killed anything, and had advice about getting through the quicksand the next day.  Again, we forgot to take a photo, so this is someone else's."
+  ),
+  data_frame(
+    id = 22,
+    event = "Doughboy Hill",
+    lat = -47.021,
+    lng = 167.733067,
+    icon = "camera",
+    image = "<img src = 'P2010066.JPG'><img src = 'P2010071.JPG'>",
+    description = "After navigating the quicksand, it was a long hard slog up to Doughboy Hill, through steep mud, followed by deep mud and bog (basically requiring lots of micro-diversions).  Here we are after the worst of it."
+  ),
+  
   data_frame(
     id = 100,
     event = "Rakeahua Hut",
