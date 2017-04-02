@@ -16,7 +16,7 @@ inc <- rbind(
     lng = 167.92,
     icon = "taxi",
     image = "<img src = 'P1300017.JPG'>",
-    description = "We got dropped off in the early afternoon.  We had a refreshing swim then a lie down, then started to walk"),
+    description = "We got dropped off in the early afternoon.  Looks pretty dry so far."),
   data_frame(
     id = 2,
     event = "Pick-up",
@@ -72,10 +72,26 @@ inc <- rbind(
     lng = 167.880872,
     icon = "home",
     image = "",
-    description = "We spent nearly an evening and nearly a whole leisurely day in Rakeahua Hut.")
+    description = "We spent nearly an evening and nearly a whole leisurely day in Rakeahua Hut."),
+  data_frame(
+    id = 9,
+    event = "Golden Bay Wharf",
+    lat = -46.9041,
+    lng = 168.1215,
+    icon = "taxi",
+    image = "<img src = 'P1300002.JPG'><img src = 'P1300004.JPG'>",
+    description = "Beautiful sunny day when we set out" ),
+  data_frame(
+    id = 10,
+    event = "Pretty rocks",
+    lat = -46.911,
+    lng = 168.09,
+    icon = "camera",
+    image = "<img src = 'P1300009.JPG'>",
+    description = "")
   ) %>%
   mutate(popup = gsub("JPG'>", "JPG' width = 200>", image),
-         popup = paste("<p>", description, "</p>", popup),
+         popup = paste(popup, "<p>", description, "</p>"),
          iconcol = ifelse(icon == "home", "blue", "orange"))
 
 stewartIcons <- awesomeIcons(inc$icon, markerColor = inc$iconcol, library ="fa", iconColor = "white")
