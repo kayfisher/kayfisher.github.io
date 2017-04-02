@@ -265,4 +265,5 @@ provider <- providers$Esri.WorldTopoMa
 leaflet() %>% 
   setView(167.8, -46.95, zoom = 11) %>%
   addProviderTiles(provider) %>%
+  addPolylines(lng = ~lng, lat = ~lat, data = inc) %>%
   addAwesomeMarkers(popup = ~popup, label = ~event, data = inc, icon = stewartIcons)
