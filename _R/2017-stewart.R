@@ -1,10 +1,6 @@
 library(tidyverse)
 library(leaflet)
 
-phdir <- "D:/Peter/Pictures/2017-02-12/"
-
-# different icons
-# different colours
 
 
 #================data==================
