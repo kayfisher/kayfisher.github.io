@@ -1,10 +1,6 @@
 library(tidyverse)
 library(leaflet)
 
-phdir <- "D:/Peter/Pictures/2017-02-12/"
-
-# different icons
-# different colours
 
 
 #================data==================
@@ -269,4 +265,5 @@ provider <- providers$Esri.WorldTopoMa
 leaflet() %>% 
   setView(167.8, -46.95, zoom = 11) %>%
   addProviderTiles(provider) %>%
-  addAwesomeMarkers(popup = ~popup, label = ~event, data = inc, icon = stewartIcons)
+  addPolylines(lng = ~lng, lat = ~lat, data = inc) %>%
+  addAwesomeMarkers(lng = ~lng, lat =~lat, popup = ~popup, label = ~event, data = inc, icon = stewartIcons)

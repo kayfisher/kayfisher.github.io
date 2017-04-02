@@ -36,3 +36,7 @@ vignettes/*.pdf
 # jekyll
 _site/
 .Rproj.user
+
+
+trips/2017-stewart/index.md
+trips/2017-stewart/slides.html
