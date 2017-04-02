@@ -1,0 +1,160 @@
+---
+title: "Stewart Island Southern Circuit"
+author: "Peter and Kay"
+date: "February, 2017"
+output: 
+  revealjs::revealjs_presentation:
+    theme: sky
+    includes:
+      in_header: slides.css
+---
+
+# Overview
+
+##
+
+<img src = 'P2030101.JPG' width = '100%'>
+
+## Elevation
+
+<img src = 'vertical-profile.JPG' width = '600px'>
+
+By New Zealand standards, it's pretty light on for hills; but it turns out the quality of the track makes up for it.  400 metres of vertical height is nothing by Tararua standards, but it counts when you're bashing through mud and underrowth.
+
+## Interactive map
+
+<iframe width="800" height="450" src="leaflet.html" frameborder="0" allowfullscreen></iframe>
+
+Click on the markers for pictures and movies; or try the [full screen version](leaflet.html)/
+
+# Day 1
+
+##
+
+<img src = 'P1300002.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300004.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300009.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300016.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300017.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300019.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300022.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300023.JPG' width = '100%'>
+
+##
+
+<img src = 'P1300025.JPG' width = '100%'>
+
+# Day 2 
+
+##
+
+<img src = 'P1300033.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310039.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310040.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310042.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310046.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310047.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310050.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310055.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310057.JPG' width = '100%'>
+
+##
+
+<img src = 'P1310062.JPG' width = '100%'>
+
+# Day 3
+
+##
+
+<img src = 'P2010066.JPG' width = '100%'>
+
+##
+
+<img src = 'P2010068.JPG' width = '100%'>
+
+##
+
+<img src = 'P2010069.JPG' width = '100%'>
+
+##
+
+<img src = 'P2010071.JPG' width = '100%'>
+
+##
+
+<img src = 'P2010074.JPG' width = '100%'>
+
+##
+
+<img src = 'P2010083.JPG' width = '100%'>
+
+##
+
+<img src = 'P2010084.JPG' width = '100%'>
+
+
+##
+
+<img src = 'P2010085.JPG' width = '100%' class = "rotate270">
+
+##
+
+<img src = 'P2010088.JPG' width = '100%'>
+
+##
+
+<img src = 'P2020089.JPG' width = '100%'>
+
+##
+
+<img src = 'P2020098.JPG' width = '100%'>
+
+##
+
+<img src = 'P2030101.JPG' width = '100%'>
+
