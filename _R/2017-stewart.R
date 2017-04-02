@@ -85,7 +85,7 @@ inc <- rbind(
     lng = 167.886158,
     icon = "warning",
     image = "<img src = 'P1300023.JPG'><img src = 'P1300025.JPG'>",
-    description = "We obviously had a dry day."
+    description = "We obviously had a drier day than some. The sign warns you not to proceed if the water is about 40cm above the path."
   ),
   data_frame(
     id =10,
