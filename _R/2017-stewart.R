@@ -102,8 +102,8 @@ inc <- rbind(
     lat = -46.9266,
     lng = 167.7801,
     icon = "home",
-    image = "",
-    description = "For the first night we stayed in a hut with old people.  They'd mostly flown in that day; the plane lands on the hard sand.  Then next day they were going to reverse the walk we did; cross the 'range' and get picked up by a water taxi then back to Oban."
+    image = "<img src = 'mason-hut.JPG'>",
+    description = "For the first night we stayed in a hut with mostly older people.  They'd mostly flown in that day; the plane lands on the hard sand.  Then next day they were going to reverse the walk we did; cross the 'range' and get picked up by a water taxi then back to Oban.  Nice hut.  We forgot to take a photo, so this one is from the web."
   ),
   data_frame(
     id = 12,
@@ -115,14 +115,50 @@ inc <- rbind(
     description = "Day two starts with a short walk down to the beach."
   ),
   data_frame(
-    id = 100,
+    id = 13,
+    event = "Kay on Mason's Bay beach...",
+    lat = -46.930313,
+    lng = 167.761558,
+    icon = "camera",
+    image = "<img src = 'P1310042.JPG'>",
+    description = "Mason's Bay beach, heading south."
+  ),
+  data_frame(
+    id = 14,
     event = "Mason's Bay",
-    lat = -46.937,
-    lng = 167.755,
+    lat = -46.948568,
+    lng = 167.745677,
     icon = "video-camera",
     image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/gRuqnMsnB_o?autoplay=1" frameborder="0" allowfullscreen></iframe>',
     description = "Mason Bay is a rather lovely, hard sand beach we walk southwards on."
     ),
+  data_frame(
+    id = 15,
+    event = "Sealion on Mason's Bay beach...",
+    lat = -46.959293,
+    lng = 167.728408,
+    icon = "camera",
+    image = "<img src = 'P1310046.JPG'><img src = 'P1310047.JPG'>",
+    description = "Day two starts with a short walk down to the beach."
+  ),
+  data_frame(
+    id = 16,
+    event = "Starting uphill",
+    lat = -46.966111,
+    lng = 167.728185,
+    icon = "camera",
+    image = "<img src = 'P1310050.JPG'>",
+    description = "Leaving the beach and starting up the hill."
+  ),
+  data_frame(
+    id = 17,
+    event = "Emerging from the bog",
+    lat = -46.988607,
+    lng = 167.733067,
+    icon = "warning",
+    image = "<img src = 'P1310055.JPG'>",
+    description = "We underestimated the bog and tried going straight through.  Both ended up in it up to our chests; had to work hard for Peter to get out then find a way to the other side and help pull Kay out, using his trekking pole to reach her.  It was much worse than it looks."
+  ),
   data_frame(
     id = 100,
     event = "We meet a kiwi",
@@ -160,17 +196,19 @@ inc <- rbind(
   )
   
   ) %>%
-  mutate(popup = gsub("JPG'>", "JPG' width = 200>", image),
+  mutate(popup = gsub("JPG'>", "JPG' width = 300>", image),
          popup = paste(popup, "<p>", description, "</p>"),
+         event = paste0(id, ". ", event),
          iconcol = ifelse(icon == "home", "blue", 
                           ifelse(icon == "taxi", "orange", "green")))
 
-View(inc)
 
 stewartIcons <- awesomeIcons(inc$icon, markerColor = inc$iconcol, library ="fa", iconColor = "white")
 
+# provider <- providers$Stamen.TerrainBackground
+provider <- providers$Esri.WorldTopoMa
 
 leaflet() %>% 
   setView(167.8, -46.95, zoom = 11) %>%
-  addProviderTiles(providers$Stamen.TerrainBackground) %>%
+  addProviderTiles(provider) %>%
   addAwesomeMarkers(popup = ~popup, label = ~event, data = inc, icon = stewartIcons)
