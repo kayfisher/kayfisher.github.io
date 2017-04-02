@@ -30,15 +30,15 @@ inc <- rbind(
     event = "We meet a kiwi",
     lat = -47.021,
     lng = 167.718,
-    icon = "camera",
+    icon = "video-camera",
     image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/iOxU1d3IbII?autoplay=1" frameborder="0" allowfullscreen></iframe>',
-    description = "We met a bloody kiwi."),
+    description = "We met a very unafraid kiwi."),
   data_frame(
     id = 4,
     event = "Mason's Bay",
     lat = -46.937,
     lng = 167.755,
-    icon = "binoculars",
+    icon = "video-camera",
     image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/gRuqnMsnB_o?autoplay=1" frameborder="0" allowfullscreen></iframe>',
     description = "Mason Bay is a rather lovely, hard sand beach we walk southwards on."),
   data_frame(
@@ -88,7 +88,24 @@ inc <- rbind(
     lng = 168.09,
     icon = "camera",
     image = "<img src = 'P1300009.JPG'>",
-    description = "")
+    description = ""),
+  data_frame(
+    id = 11,
+    event = "Paterson Inlet",
+    lat = -46.9285,
+    lng = 168.051541,
+    icon = "video-camera",
+    image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/6EmO_9veLS8?autoplay=1" frameborder="0" allowfullscreen></iframe>',
+    description = "Water-taxiing through Paterson inlet on the way to the walk"),
+  data_frame(
+    id = 12,
+    event = "Entering the Freshwater River",
+    lat = -46.8986,
+    lng = 167.9640,
+    icon = "video-camera",
+    image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/k-f3C81RnEs?autoplay=1" frameborder="0" allowfullscreen></iframe>',
+    description = "Entering the river"
+  )
   ) %>%
   mutate(popup = gsub("JPG'>", "JPG' width = 200>", image),
          popup = paste(popup, "<p>", description, "</p>"),
