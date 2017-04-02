@@ -97,6 +97,33 @@ inc <- rbind(
     description = ""
   ),
   data_frame(
+    id = 11,
+    event = "Mason Bay Hut",
+    lat = -46.9266,
+    lng = 167.7801,
+    icon = "home",
+    image = "",
+    description = "For the first night we stayed in a hut with old people.  They'd mostly flown in that day; the plane lands on the hard sand.  Then next day they were going to reverse the walk we did; cross the 'range' and get picked up by a water taxi then back to Oban."
+  ),
+  data_frame(
+    id = 12,
+    event = "Approaching the beach...",
+    lat = -46.925009,
+    lng = 167.775721,
+    icon = "camera",
+    image = "<img src = 'P1310039.JPG'><img src = 'P1310040.JPG'>",
+    description = "Day two starts with a short walk down to the beach."
+  ),
+  data_frame(
+    id = 100,
+    event = "Mason's Bay",
+    lat = -46.937,
+    lng = 167.755,
+    icon = "video-camera",
+    image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/gRuqnMsnB_o?autoplay=1" frameborder="0" allowfullscreen></iframe>',
+    description = "Mason Bay is a rather lovely, hard sand beach we walk southwards on."
+    ),
+  data_frame(
     id = 100,
     event = "We meet a kiwi",
     lat = -47.021,
@@ -105,23 +132,6 @@ inc <- rbind(
     image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/iOxU1d3IbII?autoplay=1" frameborder="0" allowfullscreen></iframe>',
     description = "We met a very unafraid kiwi."
     ),
-  data_frame(
-    id = 100,
-    event = "Mason Bay Hut",
-    lat = -46.9266,
-    lng = 167.7801,
-    icon = "home",
-    image = "",
-    description = "For the first night we stayed in a hut with old people.  They'd mostly flown in that day; the plane lands on the hard sand.  Then next day they were going to reverse the walk we did; cross the 'range' and get picked up by a water taxi then back to Oban."
-    ),
-  data_frame(
-    id = 100,
-    event = "Mason's Bay",
-    lat = -46.937,
-    lng = 167.755,
-    icon = "video-camera",
-    image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/gRuqnMsnB_o?autoplay=1" frameborder="0" allowfullscreen></iframe>',
-    description = "Mason Bay is a rather lovely, hard sand beach we walk southwards on."),
   data_frame(
     id = 100,
     event = "Doughboy Bay Hut",
@@ -154,6 +164,8 @@ inc <- rbind(
          popup = paste(popup, "<p>", description, "</p>"),
          iconcol = ifelse(icon == "home", "blue", 
                           ifelse(icon == "taxi", "orange", "green")))
+
+View(inc)
 
 stewartIcons <- awesomeIcons(inc$icon, markerColor = inc$iconcol, library ="fa", iconColor = "white")
 
