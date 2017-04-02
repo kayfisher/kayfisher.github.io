@@ -70,6 +70,33 @@ inc <- rbind(
     description = "First mud.  Doesn't look too bad."
     ),
   data_frame(
+    id = 8,
+    event = "Walking",
+    lat = -46.871773,
+    lng = 167.890064,
+    icon = "camera",
+    image = "<img src = 'P1300022.JPG'>",
+    description = "Beautiful day"
+  ),
+  data_frame(
+    id = 9,
+    event = "Do not proceed if...",
+    lat = -46.873548,
+    lng = 167.886158,
+    icon = "warning",
+    image = "<img src = 'P1300023.JPG'><img src = 'P1300025.JPG'>",
+    description = "We obviously had a dry day."
+  ),
+  data_frame(
+    id =10,
+    event = "walking",
+    lat = -46.909419,
+    lng = 167.823094,
+    icon = "camera",
+    image = "<img src = 'P1300033.JPG'>",
+    description = ""
+  ),
+  data_frame(
     id = 100,
     event = "We meet a kiwi",
     lat = -47.021,
@@ -78,14 +105,6 @@ inc <- rbind(
     image = '<iframe width="279" height="157" src="https://www.youtube.com/embed/iOxU1d3IbII?autoplay=1" frameborder="0" allowfullscreen></iframe>',
     description = "We met a very unafraid kiwi."
     ),
-  data_frame(
-    id = 100,
-    event = "Homestead Hunters Hut",
-    lat = -46.926334,
-    lng = 167.79606,
-    icon = "paw",
-    image = "",
-    description = "A hut used by hunters"),
   data_frame(
     id = 100,
     event = "Mason Bay Hut",
@@ -123,8 +142,8 @@ inc <- rbind(
   data_frame(
     id = 100,
     event = "Pick-up",
-    lat = -46.98,
-    lng = 167.883,
+    lat = -46.982539,
+    lng = 167.885804,
     icon = "taxi",
     image = "",
     description = "Eventually we were picked up the next day"
@@ -133,7 +152,8 @@ inc <- rbind(
   ) %>%
   mutate(popup = gsub("JPG'>", "JPG' width = 200>", image),
          popup = paste(popup, "<p>", description, "</p>"),
-         iconcol = ifelse(icon == "home", "blue", "orange"))
+         iconcol = ifelse(icon == "home", "blue", 
+                          ifelse(icon == "taxi", "orange", "green")))
 
 stewartIcons <- awesomeIcons(inc$icon, markerColor = inc$iconcol, library ="fa", iconColor = "white")
 
