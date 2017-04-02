@@ -206,22 +206,51 @@ inc <- rbind(
   ),
   
   data_frame(
-    id = 100,
+    id = 23,
+    event = "Outward bound",
+    lat = -46.991,
+    lng = 167.833,
+    icon = "camera",
+    image = "<img src = 'P2010074.JPG'>",
+    description = "Wandering down towards the river."
+  ),
+  
+  data_frame(
+    id = 24,
+    event = "Bog near Rakeahua Hut",
+    lat = -46.982330,
+    lng = 167.854731,
+    icon = "warning",
+    image = "<img src = 'P2010083.JPG'><img src = 'P2010084.JPG'>",
+    description = "It got seriously boggy and muddy in the final few kilometres before the hut at our pickup point."
+  ),
+  
+  data_frame(
+    id = 25,
     event = "Rakeahua Hut",
     lat = -46.982096,
     lng = 167.880872,
     icon = "home",
-    image = "",
+    image = "<img src = 'P2010088.JPG'><img src = 'P2020089.JPG'>",
     description = "We spent nearly an evening and nearly a whole leisurely day in Rakeahua Hut."
   ),
   data_frame(
-    id = 100,
+    id = 26,
     event = "Pick-up",
     lat = -46.982539,
     lng = 167.885804,
     icon = "taxi",
-    image = "",
-    description = "Eventually we were picked up the next day"
+    image = "<img src = 'P2020098.JPG'>",
+    description = "Lovely spot for a pickup."
+  ),
+  data_frame(
+    id = 27,
+    event = "Jumping fish",
+    lat = -46.932740,
+    lng = 168.036168,
+    icon = "camera",
+    image = "<img src = 'fish.JPG'>",
+    description = "On the way back we caught an amazing feeding frenzy.  A big school of small fish had been herded together by the predators.  Barracuda were jumping out of the water to catch them, fish were jumping out to get away, seabirds, blue penguins, dolphins, everything was having a field day.  We didn't get any footage (camera stowed in pack) so here are some generic jumping fish."
   )
   
   ) %>%
