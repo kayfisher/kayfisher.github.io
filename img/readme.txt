@@ -1,0 +1,1 @@
+holds images used in popups etc
